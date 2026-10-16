@@ -13,6 +13,10 @@ authors = [{ name = "Poowit" }]
 requires-python = ">=3.10"
 dependencies = ["libusb1>=3.1", "pystray>=0.19", "pillow>=10"]
 
+[project.urls]
+Homepage = "https://github.com/pkomjit/usbip-win-server"
+Issues = "https://github.com/pkomjit/usbip-win-server/issues"
+
 [project.scripts]
 usbshare = "usbshare.__main__:main"
 
